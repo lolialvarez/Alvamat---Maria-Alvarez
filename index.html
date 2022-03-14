@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALVAMAT - Tu salud financiera</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <header class="encabezado header">
+            <nav class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo alvamat" width="20%" height="20%">
+                    </a>
+                </div>
+                <div class="encabezado nav-container">
+                    <ol>
+                        <li class="transform"> <a href="nosotros.html"> Nosotros</a></li>
+                        <li class="transform"> <a href="servicios.html"> Servicios</a></li>
+                        <li class="transform"> <a href="glosario.html"> Glosario</a></li>
+                        <li class="transform"> <a href="contacto.html"> Contacto</a></li>
+                    </ol>
+                </div>
+            </nav>
+            <!-- Acá borré la imagen y la puse de fondo con CSS -->
+        </header>
+        <br>
+        <main id="main">
+            <div>
+                <h1 class="textcenter alvamat__titulo--xxl"> <strong> Tu salud financiera es importante:</strong> <br> Nosotros te cuidamos</h1>
+            </div>
+            <section class="flex-ppal">
+                <div>
+                    <form action="envio.php" method="post">
+                        <fieldset class="encabezado__box--transparent">
+                            <h3>Déjanos tu consulta</h3>
+                            <br>
+                            <label for="nombre" class="label serif">Nombre y apellido</label>
+                            <br>
+                            <input type="text" placeholder="Dolores Álvarez" name="nombre" id="nombre">
+                            <br>
+                            <label for="email" class="label serif">Email</label>
+                            <br>
+                            <input type="text" name="email" id="email">
+                            <br>
+                            <label for="telefono" class="label serif">Teléfono</label>
+                            <br>
+                            <input type="text" name="telefono" id="telefono">
+                            <br>
+                            <label for="mensaje" class="label serif">Escribe tu consulta aquí</label>
+                            <br>
+                            <textarea name="comentario" id="comentario" cols="30" rows="2"></textarea>
+                            <br>
+                            <input type="submit" value="Enviar">
+
+                        </fieldset>
+
+                    </form>
+                </div>
+                <div>
+                    <img src="img/logo.png" alt="logo alvamat" width="100" height="100">
+                </div>
+                <div>
+                    <h2>Nuestra Sede</H2>
+                    <iframe width="300" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.9168047728863!2d-56.04484178458375!3d-34.883435379859215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8613f6446acb%3A0xaebb3d4b461d4f21!2sVi%C3%B1a%20del%20Mar%207241%2C%2011500%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1644585893976!5m2!1ses-419!2suy"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+        </main>
+        <!-- REDES SOCIALES -->
+        <footer id="footer" class="flex-footer">
+            <h4 class="pie__titulo--md">Seguinos en Instagram</h4>
+            <a href="https://www.instagram.com" target="_blank"></a>
+            <img src="img/instagram.png" alt="Instagram" width="60" height="60" class="pie__icon--sm">
+        </footer>
+    </div>
+</body>
+
+</html>
