@@ -198,17 +198,27 @@ header .encabezado {
     margin: 80px 500px 110px 500px;
 }
 
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.form-control {
+    padding: 0.6rem 6rem;
+}
+
 
 /*Contactos*/
 
 .data {
     text-align: center;
-}
-
-ul,
-li {
-    margin-top: 20px;
-    display: block;
 }
 
 .label .item {
@@ -380,6 +390,10 @@ header.nav-container {
 
 
 /*ANIMACIONES*/
+
+.transform {
+    transition: .3 ease all;
+}
 
 .transform:hover {
     transform: translateY(-10px);

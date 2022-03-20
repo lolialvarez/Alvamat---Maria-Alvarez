@@ -1,66 +1,85 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>ALVAMAT - Tu salud financiera</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header class="encabezado header">
-        <nav class="header">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo.png" alt="logo alvamat" width="20%" height="20%">
-                </a>
+<header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" class="w-50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active transform" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link transform" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link transform" href="glosario.html">Glosario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link transform" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-light w-50" type="submit">Buscar</button>
+                </form>
             </div>
-            <div class="encabezado nav-container">
-                <ol>
-                    <li class="transform"> <a href="nosotros.html"> Nosotros</a></li>
-                    <li class="transform"> <a href="servicios.html"> Servicios</a></li>
-                    <li class="transform"> <a href="glosario.html"> Glosario</a></li>
-                    <li class="transform"> <a href="contacto.html"> Contacto</a></li>
-                </ol>
-            </div>
-        </nav>
-        <!-- Acá borré la imagen y la puse de fondo con CSS -->
-    </header>
-    <br>
-    <main id="main-glos">
-        <h1 class="textcenter alvamat__titulo--xxl">Glosario financiero</h1>
-        <section>
-            <article>
-                <li>
-                    <p class="textcenter glosario__titulo--md">Acciones</p>
-                    <div>
-                        <p class="text center  glosario__p--md">Título emitido por una empresa que brinda una participación en la misma. De esta manera, el inversor participa del capital de la empresa, así como de la distribución de dividendos en caso que los hubiere.</p>
-                    </div>
-                </li>
-                <li>
-                    <p class="textcenter glosario__titulo--md">Bonos</p>
-                    <div>
-                        <p class="text center  glosario__p--md">Instrumento de renta fija que representa un préstamo realizado por un inversor a un tomador de deuda, típicamente un gobierno o una empresa.</p>
-                    </div>
-                </li>
-                <li>
-                    <p class="textcenter glosario__titulo--md">ETF</p>
-                    <div>
-                        <p class="text center  glosario__p--md"> Instrumentos de inversión que buscan replicar la performance de algún índice específico. A diferencia de los fondos activamente administrados, estos manejan estrategias pasivas.
-                        </p>
-                    </div>
-                </li>
-            </article>
-        </section>
-    </main>
-    <!-- REDES SOCIALES -->
-    <footer id="footer" class="flex-footer">
-        <H3>Seguinos en Instagram</H3>
-        <a href="https://www.instagram.com " target="_blank "></a>
-        <img src="img/instagram.png " alt="Instagram " width="60 " height="60 ">
-    </footer>
+        </div>
+    </nav>
+
+</header>
+<br>
+<main id="main-glos">
+    <h1 class="textcenter alvamat__titulo--xxl">Glosario financiero</h1>
+    <section>
+        <article>
+            <li>
+                <p class="textcenter glosario__titulo--md">Acciones</p>
+                <div>
+                    <p class="text center  glosario__p--md">Título emitido por una empresa que brinda una participación en la misma. De esta manera, el inversor participa del capital de la empresa, así como de la distribución de dividendos en caso que los hubiere.</p>
+                </div>
+            </li>
+            <li>
+                <p class="textcenter glosario__titulo--md">Bonos</p>
+                <div>
+                    <p class="text center  glosario__p--md">Instrumento de renta fija que representa un préstamo realizado por un inversor a un tomador de deuda, típicamente un gobierno o una empresa.</p>
+                </div>
+            </li>
+            <li>
+                <p class="textcenter glosario__titulo--md">ETF</p>
+                <div>
+                    <p class="text center  glosario__p--md"> Instrumentos de inversión que buscan replicar la performance de algún índice específico. A diferencia de los fondos activamente administrados, estos manejan estrategias pasivas.
+                    </p>
+                </div>
+            </li>
+        </article>
+    </section>
+</main>
+<!-- REDES SOCIALES -->
+<footer id="footer" class="flex-footer">
+    <H3>Seguinos en Instagram</H3>
+    <a href="https://www.instagram.com " target="_blank "></a>
+    <img src="img/instagram.png " alt="Instagram " width="60 " height="60 ">
+</footer>
 
 </body>
 
