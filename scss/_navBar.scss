@@ -1,0 +1,16 @@
+.encabezado nav ol {
+    display: flex;
+}
+
+.encabezado nav ol li {
+    list-style: none;
+    color: ivory;
+    margin-right: 20%;
+}
+
+.encabezado nav ol li a {
+    font-size: 1.8rem;
+    text-decoration: khaki;
+    color: ivory;
+    padding: 0, 5px;
+}

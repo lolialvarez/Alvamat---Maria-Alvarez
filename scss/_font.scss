@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,600&display=swap');
 $fontMain: 'Poppins',
 sans-serif;
-//variables para los textos
+//variables para los textos visto en clase
 $textXl: 4em;
 $textLg: 3em;
 $textMd: 2em;
 $textSm: 1em;
 $d-flex:flex;
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+.textDestacado {
+    background-color: rgb(206, 104, 138);
+}
+
+.textBold {
+    font-weight: 600;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.bgLight {
+    background-color: whitesmoke;
+}
+
+.bgDark {
+    background-color: #12181e;
+}

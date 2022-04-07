@@ -1,7 +1,17 @@
-//definimos variables
-//colores
-$mainColor: blue;
-$secondaryColor: red;
-$keyColor: deeppink;
-//Sizing
-$w-100:100%
+@mixin texto($font-size, $line-height, $color) {
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+    padding: 2px;
+}
+
+@mixin flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+$paleta: ( ‘uno‘: ivory, ‘dos‘: #12181e, ‘tres‘: whitesmoke, ‘cuatro‘: black, ‘cinco‘: #212428);
+.bg-dark {
+    background-color: map-get($map: $paleta, $key: ‘cinco‘);
+}
